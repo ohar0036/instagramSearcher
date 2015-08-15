@@ -1,0 +1,85 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 3em 0;
+}
+
+.thumbnail_box {
+  background: #E6E6E6;
+  padding:20px 20px 5px 20px;
+  border: 2px solid #E6E6E6;
+}
+
+.thumbnail_box:hover {
+  border: 2px solid #C6C6C6;
+}
+
+.margin_bottom {
+  margin-bottom: 30px;
+}
+
+form {
+  width:300px;
+  margin: 40px auto 40px auto;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  border: solid 2px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+input[type="text"]:focus,
+input[type="text"].focus {
+  border: solid 2px #707070;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+  text-align: center;
+  width: 95px;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+input[type="submit"]:hover,
+input[type="submit"].focus {
+  border: solid 2px #a93c3f;
+  background: #d24649;
+  color: #fff;
+}
+
+input[type="submit"] {
+  border: solid 2px #dcdcdc;
+  background: #EAEAEA;
+  color: #6E6E6E;
+}
+
+.user_credit {
+  padding-top:15px;
+  font-size:11px;
+  text-transform:uppercase;
+  color: #999999;
+}
+
+.result_message {
+  text-align: center;
+  padding: 0 0 30px 0;
+  -webkit-transition: 1s linear all;
+  transition: 0.25s linear all;
+  transition-delay: 0.25s;
+}
+
+/******* ANIMATIONS ********/
+
+
+
+.result_message.ng-show {
+  opacity: 1;
+  color:red;
+}
+
+.result_message.ng-hide {
+  opacity: 0; 
+}
